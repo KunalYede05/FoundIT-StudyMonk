@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="studyMonk.css">
+</head>
+<body>
+     <!----------------Navigation Bar------------------->
+     <div id="header">
+        <div class="container">
+            <nav id="sidemenu">
+                <img src="./foundit-2.png" alt="" height="50" width="150">
+                <ul>
+                    <strong>
+                    <li><a href="#header">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Job Seeker">Job Seeker</a></li>
+                    <li><a href="./registration.html">Tech for Hire</a></li>
+                    <li><a href="./Login.html">Login</a></li>
+                </ul>
+            </strong>
+            </nav>
+            <div class="header-text">
+                <h2>Want to Hire Fresh Minds?<br>Want to Persue Best Carrier?<br><span>You are at Right Platform.</span></h2>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------About----------------- -->
+    <div id="about">
+        <div class="row">
+            <h1>We are
+                <span>FoundIT</span>
+            </h1>
+        </div>
+        <p class="description">
+            We are Bridge Between Recruiter and The Fresh Minds<br>
+            who are curious to convert their Ideas Into reality.
+        </p>
+        <br>
+        <p class="description">Speak with Us today on how we can Help you To get your<br>desired Candidate.</p>
+        <br>
+        <br>
+        <hr>
+        <div>
+            <div class="container-1">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial">
+                  <img src="./client-1.jpg" alt="Client 1">
+                  <blockquote>"The recruitment solution helped us find top talent efficiently and made our hiring process much smoother. Highly recommended!"</blockquote>
+                  <cite>John Doe, HR Manager</cite>
+                </div><br>
+                <div class="testimonial">
+                  <img src="./client-2.jpeg" alt="Client 2">
+                  <blockquote>"We were able to expand our candidate search globally and find the perfect fit for our team. The platform is a game-changer for us."</blockquote>
+                  <cite>Jane Smith, Talent Acquisition</cite>
+                </div>
+              </div>
+              <div class="about-1">
+                <div class="about-col-1"><img src="./user.png" height="500" ></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">My FoundIT experience</h1><br>
+                    <p>Hi I'm Kunal
+                        A Full Stack software developer, <br>passionate about building excellent software that improves
+                        the lives of those around me. <br>
+                        Want to work in Challenging Environment To Showcase My Knowledge and Creativity.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Company</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/app Interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Developing Android App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Full Stack Developer training at Qspider Pune</li>
+                            <li><span>2022</span><br>BE From PRMIT&R Amravati</li>
+                            <li><span>2018</span><br>HSC From HGT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-current</span><br>I got Placed in Infosys and TCS through FoundIT.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="find-us">
+        <h2><b>Find Us</b></h2><br><br>
+        <div class="about-findus">
+            <div class="location">
+                <img srcset="https://www.codigo.co/_next/image?url=%2Fimages%2Flocations%2Fsingapore.png&w=3840&q=85">
+                    <h3>Singapore</h3>
+            </div>
+            <div class="location">
+                <img srcset="https://www.codigo.co/_next/image?url=%2Fimages%2Flocations%2Fmyanmar.png&w=3840&q=85" >
+                <h3>Mumbai</h3>
+            </div>
+            <div class="location">
+                <img srcset="https://www.codigo.co/_next/image?url=%2Fimages%2Flocations%2Fvietnam.png&w=3840&q=85" >
+                <h3>Pune</h3>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p ><i class="fa-solid fa-paper-plane"></i>foundit@gmail.com</p>
+                    <p ><i class="fa-solid fa-square-phone"></i>8888888888</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kunal-yede-726b05225/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents')
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    
+    
+</body>
+</html>

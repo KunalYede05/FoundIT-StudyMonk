@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Hire</title>
+    <style>
+        *{
+            margin-top: 10px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-image: url(./purple-background-registration.png);
+            color: white;
+        }
+
+        .questions label{
+           font-size: 20px;
+        }
+        .questions h2{
+            text-align: center;
+            margin-top: 80px;
+        }
+        #registration{
+            text-align: center;
+        }
+        .register {
+            margin-top: 50px;
+        }
+        .media {
+            margin-top: 50px;
+        }
+
+        .register input{
+            height: 40px;
+            width: 300px;
+            border-radius: 5px;outline: none;
+        }
+        .media label{
+           font-size: 20px;
+        }
+
+        button{
+            height: 40px;
+            width: 200px;
+            font-weight: 500;
+            background-color: #ff004f;
+            border-radius: 6px;
+            color: white;
+            outline:none;
+            cursor: pointer;
+            margin-top: 50px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="registration">
+        <h1>Let's chat about</h1><br>
+        <p>Use this form to contact us if you are looking for FoundIt to hire Skillfull Candidates for You!</p><hr>
+    </div>
+    <div class="questions">
+        <h2>What tech professionals are you looking to hire from FoundIT? *</h2>
+        <input type="checkbox" name="IOS developer" id=""><label for="IOS developer">IOS Developer</label>
+        <input type="checkbox" name="android developer" id=""><label for="android developer">Android Developer</label><br>
+        <input type="checkbox" name="frontend developer" id=""><label for="frontend developer">Frontend Developer</label>
+        <input type="checkbox" name="backend developer" id=""><label for="backend developer">Backend Developer</label><br>
+        <input type="checkbox" name="Other" id=""><label for="">Other</label>
+    </div>
+    <div class="register">
+        <h2>How do we get in touch?</h2>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="text" placeholder="Company"><br>
+        <input type="email" name="" id="" placeholder="Email Address"><br>
+        <input type="number" name="" id="" placeholder="Contact No">
+    </div>
+    <div class="media">
+        <h2>How did you find us? *</h2>
+        <input type="checkbox" name="Search" id="search"><label for="search">Search</label>
+        <input type="checkbox" name="Word" id="word"><label for="word">Word of Mouth</label><br>
+        <input type="checkbox" name="" id=""><label for="">Social Media</label>
+        <input type="checkbox" name="" id=""><label for="">Others</label>
+    </div>
+    <button type="submit">Submit</button>
+</body>
+</html>
